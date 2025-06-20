@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* google font azeret mono */
+.azeret-mono-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Shared Styles */
+.max-width {
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+.color-primary {
+    color: rgb(13, 19, 33);
+}
+
+.btn-primary {
+    font-size: 13px;
+    font-family: 600;
+    padding: 11px 19px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+/* nav section styles */
+.nav-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:34px 0px;
+}
+.name {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+/* Banner sections styles */
