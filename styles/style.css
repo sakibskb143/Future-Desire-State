@@ -29,13 +29,17 @@
     border-radius: 5px;
     opacity: 0.8;
 }
+.common-describetion{
+    font-size: 11px;
+    font-weight: 16px;
+}
 
 /* nav section styles */
 .nav-section{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:34px 0px;
+  margin:25px 0 ;
 }
 .name {
     font-size: 19px;
@@ -43,3 +47,43 @@
 }
 
 /* Banner sections styles */
+.banner-section {
+    height: 450px;
+    background-image: url('../assets/Hero-bg.png');
+    background-size: contain; /* <--- shows full image */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.banner-container {
+    max-width: 688px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.group-png{
+    width: 165px;
+    margin-bottom: 22px;
+}
+.bannar-title{
+    font-size: 33px;
+    line-height:46px ;
+    margin-bottom: 16px;
+
+}
+.banner-btn{
+    font-size: 13px;
+    font-family: 600;
+    color:white;
+    background-color: rgb(13, 19, 33);
+    padding: 13px 19px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 22px;
+}
