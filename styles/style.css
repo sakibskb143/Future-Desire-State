@@ -34,6 +34,9 @@
     font-size: 11px;
     font-weight: 16px;
 }
+.text-align{
+    text-align: center;
+}
 
 /* nav section styles */
 .nav-section {
@@ -187,4 +190,52 @@
     width: 100%;
     height: 378px;
     border-radius: 11px;
+}
+
+/* my target section styles*/
+.target-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 76px;
+}
+.target-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 33px;
+    gap:17px
+}
+.first-target,.second-target,.third-target{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 251px;
+    border-radius: 11px;
+    padding: 27px;
+    gap:22px;
+   
+}
+.first-target{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.second-target{
+background-color: rgba(0, 76, 232, 0.05);
+}
+.third-target{
+background-color: rgba(255, 223, 0, 0.05);
+}
+.target-container a {
+    text-decoration-line: underline;
+    font-size: 11px;
+    font-weight: 700;
+    color:rgb(13, 19, 33);
+}
+.target-title{
+    font-size: 16px;
+    font-weight: 800;
 }
