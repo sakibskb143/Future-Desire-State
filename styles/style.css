@@ -287,3 +287,26 @@
     margin-top:33px;
     
 }
+
+
+/* footer section styles */
+.footer{
+    box-sizing: border-box;
+   border-radius: 11px; 
+   background: rgba(13, 19, 33, 0.03);
+   padding: 22px 103px 22px 103px;
+   margin-top: 55px;
+
+}
+.foot-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.foot-image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:17px;
+}
